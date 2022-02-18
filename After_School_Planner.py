@@ -14,7 +14,6 @@ while minutes_left > 0:
 
     minutes = int(input("How many minutes will " + activity + " take?"))
 
-
     minutes_left = minutes_left - minutes
 
     schedule += activity
